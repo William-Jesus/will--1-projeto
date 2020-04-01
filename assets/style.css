@@ -1,0 +1,51 @@
+/* RESETS */
+*{
+   /* border: 1px solid red;
+    background-color: rgba(243, 29, 29, 0.1);*/
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration:none;
+    color: indianred;
+    font-weight: bolder;
+    transition: color 0.6s ease-in;
+}
+a:hover{
+    color: lawngreen;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin: 10px 0 0 0;
+}
+hr{
+    margin: 10px 0 0 0;
+    padding: 0 0 0;
+}
+#meuHeader p:first-child, 
+aside p {
+    font-weight: bold;
+}
+main,
+aside{
+    margin: 20px, 40px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(199, 206, 193);
+}
+    
+img{
+    border-radius: 20%;
+    transition: all 0.8s ease-in-out;
+    border: 5px solid green;
+}
+img:hover{
+    transform: rotate(30deg)scale(1,05);
+    filter: blur(1) drop-shadow(2px 2px 2px rgba(0,0,0,0.5));
+    border: 5px solid blue;
+
+}
